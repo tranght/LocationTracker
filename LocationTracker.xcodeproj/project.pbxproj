@@ -14,6 +14,20 @@
 		1D3604131D5F0FE3004253C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D3604111D5F0FE3004253C7 /* LaunchScreen.storyboard */; };
 		1D36041E1D5F0FE3004253C7 /* LocationTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D36041D1D5F0FE3004253C7 /* LocationTrackerTests.swift */; };
 		1D3604291D5F0FE4004253C7 /* LocationTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3604281D5F0FE4004253C7 /* LocationTrackerUITests.swift */; };
+		1D3604371D5F1325004253C7 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3604361D5F1325004253C7 /* Utils.swift */; };
+		1D36043A1D5F1979004253C7 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3604391D5F1979004253C7 /* UserService.swift */; };
+		1D37088D1D77036300C2A637 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D37088B1D77036300C2A637 /* ProfileTableViewCell.swift */; };
+		1D37088E1D77036300C2A637 /* ProfileTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D37088C1D77036300C2A637 /* ProfileTableViewCell.xib */; };
+		1D3708901D77081300C2A637 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D37088F1D77081300C2A637 /* EditProfileViewController.swift */; };
+		1D3708921D772E4700C2A637 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3708911D772E4700C2A637 /* Profile.swift */; };
+		1D3708941D77445D00C2A637 /* AppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3708931D77445D00C2A637 /* AppController.swift */; };
+		1D8A9D3D1D749C5700BBBD98 /* SideMenuTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8A9D3C1D749C5700BBBD98 /* SideMenuTableView.swift */; };
+		1DCC40C51DD86DDE00B88F6C /* CreateGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCC40C41DD86DDE00B88F6C /* CreateGroupViewController.swift */; };
+		1DD47AE41D75D6060005A289 /* SideMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD47AE31D75D6060005A289 /* SideMenuTableViewCell.swift */; };
+		1DD47AE61D75D69E0005A289 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD47AE51D75D69E0005A289 /* Menu.swift */; };
+		4D449FC1DEA18C498B4BB8CC /* Pods_LocationTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E020078BB21B5066257865C6 /* Pods_LocationTracker.framework */; };
+		A33896B015CEB46A0B1EEB7D /* Pods_LocationTrackerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB29C5BCDCA4316DEC9BD3EB /* Pods_LocationTrackerUITests.framework */; };
+		E1A4AA7AC1DE7539C7EAD3FC /* Pods_LocationTrackerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD376548BC2259C1FC888243 /* Pods_LocationTrackerTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03BCF37C68F08312F52CC13A /* Pods-LocationTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocationTracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LocationTracker/Pods-LocationTracker.debug.xcconfig"; sourceTree = "<group>"; };
 		1D3604051D5F0FE3004253C7 /* LocationTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D3604081D5F0FE3004253C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1D36040A1D5F0FE3004253C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +62,26 @@
 		1D3604241D5F0FE3004253C7 /* LocationTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocationTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D3604281D5F0FE4004253C7 /* LocationTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTrackerUITests.swift; sourceTree = "<group>"; };
 		1D36042A1D5F0FE4004253C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D3604361D5F1325004253C7 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		1D3604391D5F1979004253C7 /* UserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		1D37088B1D77036300C2A637 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		1D37088C1D77036300C2A637 /* ProfileTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileTableViewCell.xib; sourceTree = "<group>"; };
+		1D37088F1D77081300C2A637 /* EditProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		1D3708911D772E4700C2A637 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		1D3708931D77445D00C2A637 /* AppController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppController.swift; sourceTree = "<group>"; };
+		1D8A9D3C1D749C5700BBBD98 /* SideMenuTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTableView.swift; sourceTree = "<group>"; };
+		1DCC40C41DD86DDE00B88F6C /* CreateGroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateGroupViewController.swift; sourceTree = "<group>"; };
+		1DD47AE31D75D6060005A289 /* SideMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewCell.swift; sourceTree = "<group>"; };
+		1DD47AE51D75D69E0005A289 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		21537721BE35A603E334C98A /* Pods-LocationTrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocationTrackerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LocationTrackerTests/Pods-LocationTrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		965E03A1AEAC3FE7982A36F4 /* Pods-LocationTrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocationTrackerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LocationTrackerTests/Pods-LocationTrackerTests.release.xcconfig"; sourceTree = "<group>"; };
+		AC6688AC1D845A0B0080115A /* LocationTrackerBridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationTrackerBridgingHeader.h; sourceTree = "<group>"; };
+		DB29C5BCDCA4316DEC9BD3EB /* Pods_LocationTrackerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocationTrackerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E020078BB21B5066257865C6 /* Pods_LocationTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocationTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA4F9D8753062DD2E88F8D25 /* Pods-LocationTrackerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocationTrackerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LocationTrackerUITests/Pods-LocationTrackerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC7D83E70FD1FAF10A1E4075 /* Pods-LocationTrackerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocationTrackerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LocationTrackerUITests/Pods-LocationTrackerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ED4A54098C1D938EBB4BAC62 /* Pods-LocationTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocationTracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-LocationTracker/Pods-LocationTracker.release.xcconfig"; sourceTree = "<group>"; };
+		FD376548BC2259C1FC888243 /* Pods_LocationTrackerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocationTrackerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D449FC1DEA18C498B4BB8CC /* Pods_LocationTracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1A4AA7AC1DE7539C7EAD3FC /* Pods_LocationTrackerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A33896B015CEB46A0B1EEB7D /* Pods_LocationTrackerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +119,8 @@
 				1D36041C1D5F0FE3004253C7 /* LocationTrackerTests */,
 				1D3604271D5F0FE3004253C7 /* LocationTrackerUITests */,
 				1D3604061D5F0FE3004253C7 /* Products */,
+				F0763B99FE7002B7A11885B6 /* Pods */,
+				2490B4CF35E2F674E1B9AE56 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +137,21 @@
 		1D3604071D5F0FE3004253C7 /* LocationTracker */ = {
 			isa = PBXGroup;
 			children = (
+				1D3604381D5F1961004253C7 /* Services */,
 				1D3604081D5F0FE3004253C7 /* AppDelegate.swift */,
+				1D8A9D3C1D749C5700BBBD98 /* SideMenuTableView.swift */,
 				1D36040A1D5F0FE3004253C7 /* ViewController.swift */,
 				1D36040C1D5F0FE3004253C7 /* Main.storyboard */,
+				1DCC40C41DD86DDE00B88F6C /* CreateGroupViewController.swift */,
+				1DD47AE31D75D6060005A289 /* SideMenuTableViewCell.swift */,
 				1D36040F1D5F0FE3004253C7 /* Assets.xcassets */,
 				1D3604111D5F0FE3004253C7 /* LaunchScreen.storyboard */,
 				1D3604141D5F0FE3004253C7 /* Info.plist */,
+				1D3604361D5F1325004253C7 /* Utils.swift */,
+				1D37088B1D77036300C2A637 /* ProfileTableViewCell.swift */,
+				1D37088C1D77036300C2A637 /* ProfileTableViewCell.xib */,
+				1D37088F1D77081300C2A637 /* EditProfileViewController.swift */,
+				AC6688AC1D845A0B0080115A /* LocationTrackerBridgingHeader.h */,
 			);
 			path = LocationTracker;
 			sourceTree = "<group>";
@@ -125,6 +174,40 @@
 			path = LocationTrackerUITests;
 			sourceTree = "<group>";
 		};
+		1D3604381D5F1961004253C7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1D3604391D5F1979004253C7 /* UserService.swift */,
+				1D3708931D77445D00C2A637 /* AppController.swift */,
+				1D3708911D772E4700C2A637 /* Profile.swift */,
+				1DD47AE51D75D69E0005A289 /* Menu.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		2490B4CF35E2F674E1B9AE56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E020078BB21B5066257865C6 /* Pods_LocationTracker.framework */,
+				FD376548BC2259C1FC888243 /* Pods_LocationTrackerTests.framework */,
+				DB29C5BCDCA4316DEC9BD3EB /* Pods_LocationTrackerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0763B99FE7002B7A11885B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03BCF37C68F08312F52CC13A /* Pods-LocationTracker.debug.xcconfig */,
+				ED4A54098C1D938EBB4BAC62 /* Pods-LocationTracker.release.xcconfig */,
+				21537721BE35A603E334C98A /* Pods-LocationTrackerTests.debug.xcconfig */,
+				965E03A1AEAC3FE7982A36F4 /* Pods-LocationTrackerTests.release.xcconfig */,
+				EA4F9D8753062DD2E88F8D25 /* Pods-LocationTrackerUITests.debug.xcconfig */,
+				EC7D83E70FD1FAF10A1E4075 /* Pods-LocationTrackerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +215,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D36042D1D5F0FE4004253C7 /* Build configuration list for PBXNativeTarget "LocationTracker" */;
 			buildPhases = (
+				C2E93CFF0ED8114B0AC3167B /* [CP] Check Pods Manifest.lock */,
 				1D3604011D5F0FE3004253C7 /* Sources */,
 				1D3604021D5F0FE3004253C7 /* Frameworks */,
 				1D3604031D5F0FE3004253C7 /* Resources */,
+				DFF8965ED3BEFAD0FE9971A4 /* [CP] Embed Pods Frameworks */,
+				3A8E1C739A4C63B22AB94530 /* [CP] Copy Pods Resources */,
+				D7441004FCDDBE065F50B619 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,9 +236,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D3604301D5F0FE4004253C7 /* Build configuration list for PBXNativeTarget "LocationTrackerTests" */;
 			buildPhases = (
+				003738226738A935B2C6E077 /* [CP] Check Pods Manifest.lock */,
 				1D3604151D5F0FE3004253C7 /* Sources */,
 				1D3604161D5F0FE3004253C7 /* Frameworks */,
 				1D3604171D5F0FE3004253C7 /* Resources */,
+				6D8F4FDB7A80482F81570891 /* [CP] Embed Pods Frameworks */,
+				714BE903E5966C720FE59D04 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +257,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D3604331D5F0FE4004253C7 /* Build configuration list for PBXNativeTarget "LocationTrackerUITests" */;
 			buildPhases = (
+				69244CA9F49C766A4E1C9287 /* [CP] Check Pods Manifest.lock */,
 				1D3604201D5F0FE3004253C7 /* Sources */,
 				1D3604211D5F0FE3004253C7 /* Frameworks */,
 				1D3604221D5F0FE3004253C7 /* Resources */,
+				200B976C77619EB7832C817B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +285,7 @@
 				TargetAttributes = {
 					1D3604041D5F0FE3004253C7 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 72224RKB75;
 					};
 					1D3604181D5F0FE3004253C7 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -230,6 +323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D3604131D5F0FE3004253C7 /* LaunchScreen.storyboard in Resources */,
+				1D37088E1D77036300C2A637 /* ProfileTableViewCell.xib in Resources */,
 				1D3604101D5F0FE3004253C7 /* Assets.xcassets in Resources */,
 				1D36040E1D5F0FE3004253C7 /* Main.storyboard in Resources */,
 			);
@@ -251,13 +345,161 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		003738226738A935B2C6E077 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		200B976C77619EB7832C817B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocationTrackerUITests/Pods-LocationTrackerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A8E1C739A4C63B22AB94530 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocationTracker/Pods-LocationTracker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69244CA9F49C766A4E1C9287 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6D8F4FDB7A80482F81570891 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocationTrackerTests/Pods-LocationTrackerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		714BE903E5966C720FE59D04 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocationTrackerTests/Pods-LocationTrackerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2E93CFF0ED8114B0AC3167B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D7441004FCDDBE065F50B619 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocationTracker/Pods-LocationTracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFF8965ED3BEFAD0FE9971A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocationTracker/Pods-LocationTracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1D3604011D5F0FE3004253C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D8A9D3D1D749C5700BBBD98 /* SideMenuTableView.swift in Sources */,
+				1D3708921D772E4700C2A637 /* Profile.swift in Sources */,
+				1D37088D1D77036300C2A637 /* ProfileTableViewCell.swift in Sources */,
+				1D36043A1D5F1979004253C7 /* UserService.swift in Sources */,
+				1DD47AE61D75D69E0005A289 /* Menu.swift in Sources */,
+				1D3708941D77445D00C2A637 /* AppController.swift in Sources */,
 				1D36040B1D5F0FE3004253C7 /* ViewController.swift in Sources */,
+				1DD47AE41D75D6060005A289 /* SideMenuTableViewCell.swift in Sources */,
 				1D3604091D5F0FE3004253C7 /* AppDelegate.swift in Sources */,
+				1DCC40C51DD86DDE00B88F6C /* CreateGroupViewController.swift in Sources */,
+				1D3604371D5F1325004253C7 /* Utils.swift in Sources */,
+				1D3708901D77081300C2A637 /* EditProfileViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,28 +641,41 @@
 		};
 		1D36042E1D5F0FE4004253C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03BCF37C68F08312F52CC13A /* Pods-LocationTracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = LocationTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tranght.LocationTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/LocationTracker/LocationTrackerBridgingHeader.h";
+				USER_HEADER_SEARCH_PATHS = "Pods/**";
 			};
 			name = Debug;
 		};
 		1D36042F1D5F0FE4004253C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED4A54098C1D938EBB4BAC62 /* Pods-LocationTracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = LocationTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tranght.LocationTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/LocationTracker/LocationTrackerBridgingHeader.h";
+				USER_HEADER_SEARCH_PATHS = "Pods/**";
 			};
 			name = Release;
 		};
 		1D3604311D5F0FE4004253C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21537721BE35A603E334C98A /* Pods-LocationTrackerTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = LocationTrackerTests/Info.plist;
@@ -433,6 +688,7 @@
 		};
 		1D3604321D5F0FE4004253C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 965E03A1AEAC3FE7982A36F4 /* Pods-LocationTrackerTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = LocationTrackerTests/Info.plist;
@@ -445,6 +701,7 @@
 		};
 		1D3604341D5F0FE4004253C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA4F9D8753062DD2E88F8D25 /* Pods-LocationTrackerUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = LocationTrackerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -456,6 +713,7 @@
 		};
 		1D3604351D5F0FE4004253C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC7D83E70FD1FAF10A1E4075 /* Pods-LocationTrackerUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = LocationTrackerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -484,6 +742,7 @@
 				1D36042F1D5F0FE4004253C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D3604301D5F0FE4004253C7 /* Build configuration list for PBXNativeTarget "LocationTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +751,7 @@
 				1D3604321D5F0FE4004253C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D3604331D5F0FE4004253C7 /* Build configuration list for PBXNativeTarget "LocationTrackerUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +760,7 @@
 				1D3604351D5F0FE4004253C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
