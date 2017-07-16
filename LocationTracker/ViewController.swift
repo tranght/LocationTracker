@@ -19,6 +19,7 @@ class ViewController: UIViewController,  CLLocationManagerDelegate {
     let profile = Profile()
     
     @IBOutlet weak var mapView: GMSMapView!
+    @IBOutlet weak var groupsTableview: UITableView!
     let locationManager = CLLocationManager()
     
     override func viewDidLoad() {
@@ -42,6 +43,7 @@ class ViewController: UIViewController,  CLLocationManagerDelegate {
                 //TODO: handle error
             }
         }
+        
         
     }
     
@@ -103,5 +105,23 @@ class ViewController: UIViewController,  CLLocationManagerDelegate {
         SideMenuManager.menuAddScreenEdgePanGesturesToPresent(toView: self.navigationController!.view)
         }
     
+}
+
+extension ViewController : UITableViewDataSource {
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return 0;
+    }
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 10; // Temporary value
+    }
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        return UITableViewCell();
+    }
+}
+
+extension ViewController : UITableViewDelegate {
+
 }
 
